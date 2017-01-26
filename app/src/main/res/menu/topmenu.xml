@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/morph"
+        android:title="MORPH!" />
+    <item
+        android:id="@+id/rotate1"
+        android:title="Rotate Upper" />
+    <item
+        android:id="@+id/rotate2"
+        android:title="Rotate Lower" />
+    <item
+        android:id="@+id/draworedit"
+        android:title="Edit Line Mode" />
+    <item
+        android:id="@+id/remove"
+        android:title="Remove Pictures" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+</menu>

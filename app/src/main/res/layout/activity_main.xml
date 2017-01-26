@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="ca.somethingsomething.kingcolt.morphingassignment.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Pictures to Morph To and From\n"
+            android:id="@+id/instructText"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery"
+            android:id="@+id/imgBtn1"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"   />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/arrow_down_float"
+            android:id="@+id/arrowImg"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery"
+            android:id="@+id/imgBtn2"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
